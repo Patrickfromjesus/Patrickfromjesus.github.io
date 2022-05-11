@@ -4,32 +4,27 @@ body {
     background-color: #C7CCDB;
     font-size: 18px;
     text-align: justify;
+    width: 50%;
+    margin: 0 auto;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-img {
-    border: 3px solid #000;
-    border-radius: 3px;
+    font-family: 'monospace';
+    text-align: center;
 }
 
 .summary, .foto {
     text-decoration: none;
-    color: daa520;
+    color: #42330b;
     font-style: italic;
     font-weight: bold;
+    font-size: 16px;
+    margin: 0;
 }
 
 .foto:hover, .summary:hover {
     text-decoration: underline;
     font-size: 17px;
-}
-
-#descrição {
-    text-align: justify;
-    font-size: 15px;
 }
 
 h1, h3 {
@@ -42,4 +37,30 @@ li {
 
 #senhor {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.image {
+    overflow: hidden;
+}
+
+#pic {
+    float: left;
+    width: 20%;
+    height: 150px;
+    background-color: #bba;
+    padding: 10px;
+}
+
+#descrição {
+    float: left;
+    width: 75%;
+    margin: 12px 0 0 5px;
+}
+
+.l1, .l3, .l5, .l7 {
+    background-color: #aaa;
+}
+
+ul {
+    list-style-type: none;
 }
