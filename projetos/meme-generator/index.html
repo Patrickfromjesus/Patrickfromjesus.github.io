@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Projeto Meme Generator</h1>
+
+<div class="inputs">
+<p>Texto: <input id="text-input" value="" type="text" maxlength="60"></p>
+<p>Imagem: <input id="meme-insert" value='' type="file" accept="image/*"></p>
+</div>
+
+<div id="maior">
+<div id="meme-image-container">
+    <img id="meme-image">
+    <div id="meme-text"><h2>texto aqui!</h2></div>
+</div>
+
+<div id="memes-prontos">
+    <h3>Algumas imagens para memes</h3>
+    <div class="img-done" id="meme-1"><img src='imgs/meme1.png'></div>
+    <div class="img-done" id="meme-2"><img src='imgs/meme2.png'></div>
+    <div class="img-done" id="meme-3"><img src='imgs/meme3.png'></div>
+    <div class="img-done" id="meme-4"><img src='imgs/meme4.png'></div>
+</div>
+</div>
+
+<div id="buttons-div">
+<button class='change-border' id="fire">Fire</button>
+<button class='change-border' id="water">Water</button>
+<button class='change-border' id="earth">Earth</button>
+</div>
+
+<br/>
+<hr/>
+
+<footer>
+<p><em><strong>Projeto criado por Gomes Conceição.</strong></em></p>
+<a href='https://www.linkedin.com/in/patrickgomesc/'><img class="logos" id="link" src="imgs/linkedin-logo.png"></a>
+<a href='https://github.com/Patrickfromjesus'><img class="logos" id="git" src="imgs/github2.png"></a>
+</footer>
+<br/>
+
+<script src="script.js"></script>
+</body>
+</html>
