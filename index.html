@@ -1,66 +1,143 @@
-<!DOCTYPE hmtl>
-<html lang="pt-br">
-<head>
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
     <meta charset="UTF-8">
-    <title>Portfólio Pessoal</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Tech-Gallery</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+  </head>
+  </head>
+  <body>
 
-<body>
+    <header>
+      <div class='header-img'> <img class="header-img" src="./images/trybe-logo.jpg" alt="Website logo" /></div>
+      <div class="header-title"> <h1>Portfólio Patrick Gomes</h1></div>
+      <div class="header-signup"><a href="https://github.com/Patrickfromjesus" target="_blank"><button class="btn-signup"><h3>GitHub</h3></button></a></div>
+    </header>
 
-<div class="name"><h1>Portfólio de Patrick Gomes</h1></div><hr/>
+  <div class="container">
 
-<h3>O que buscas?</h3>
+  <div class="start-apresentation">  
+  
+  <h3>O que buscas?</h3><br>
 
-<a class="summary" href="#descrição">Quem sou eu?</a><br/>
-<a class="summary" href="#skills">Quais são minhas habilidades?</a><br/>
-<a class="summary" href="#jesus">Ide e pregai.</a><br/>
-<br/>
+  <a class="summary" href="#descrição">Quem sou eu?</a><br/>
+  <a class="summary" href="#skills">Quais são minhas habilidades?</a><br/>
+  <a class="summary" href="#jesus">Ide e pregai.</a><br/>
 
-<div class="image">
+  <br/>
 
-    <img src="images/photo.png" id="pic" alt="Foto atual do autor" width="300px" height="300px">
+  <div class="image">
 
-    <p id="descrição"> <em>A paz de Cristo! Meu nome é Patrick, servo do <id="senhor">SENHOR</id>, brasileiro, nascido no Rio de janeiro, mas atualmente resido em Salvador - BA, ex-aluno da EPCAr, formando em Engenharia de Software, estudante de Desenvolvimento web na Trybe, amante da Matemática, de games, futebol (como bom brasileiro) e, para surpresa de zero pessoas, sou apaixonado por tecnologia.</em></p>
+      <img src="images/photo.png" id="pic" alt="Foto atual do autor" width="300px" height="300px">
+
+      <p id="descrição"> <em>A paz de Cristo! Meu nome é Patrick, servo do <id="senhor">SENHOR</id>, brasileiro, nascido no Rio de janeiro, mas atualmente resido em Salvador - BA, ex-aluno da EPCAr, formando em Engenharia de Software, estudante de Desenvolvimento web na Trybe, amante da Matemática, de games, futebol (como bom brasileiro) e, para surpresa de zero pessoas, sou apaixonado por tecnologia.</em></p>
+
+  </div>
+  
+    <section class="flex-items">
+
+      <h3>Tecnologias já estudadas</h3><br/>
+
+    <div class="nest">
+
+      <div class="each-tech">
+        <h4>HTML</h4>
+        <img class="gallery-img" src="./images/html-logo.png" alt="HTML logo" />
+      </div>
+
+      <div class="each-tech">
+        <h4>CSS</h4>
+        <img class="gallery-img" src="./images/css-logo.png" alt="CSS logo" />
+      </div>
+
+      <div class="each-tech">
+        <h4>JAVASCRIPT</h4>
+        <img class="gallery-img" src="./images/javaScript-logo.png" alt="JavaScript logo" />
+      </div>
+    </div><br/>
+
+    <h3>Próximas tecnologias a serem estudadas</h3><br/>
+
+    <div class="nest">
+
+      <div class="each-tech">
+        <h4>REACT</h4>
+        <img class="gallery-img" src="./images/react-logo.png" alt="React logo" />
+      </div>
+
+      <div class="each-tech">
+        <h4>RTL</h4>
+        <img class="gallery-img" src="./images/rtl-logo.png" alt="React Testing Library logo" />
+      </div>
+
+      <div class="each-tech">
+        <h4>REDUX</h4>
+        <img class="gallery-img" src="./images/redux-logo.png" alt="Redux logo" />
+      </div>
+
+    </div><br/>
+
+
+  <h3>Mais sobre mim:</h3><br>
+  <a class="foto summary" href="#pic">- Foto</a>
+  <a class="foto summary" href="https://bibliajfa.com.br/posts/" target="_blank"><em>- Blog favorito</em></a>
+  <a class="foto summary" href="https://www.bibliaonline.com.br/acf">- Livro favorito</a>
+  <a class="foto summary" href="https://pt.wikipedia.org/wiki/Futebol">- Esporte favorito</a>
+  <br/>
+
+
+    <br/>
+
+    </section>
+    <hr/>
+    <footer>
+      <p>"Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim."</p>
+      <br/><p>-Gálatas 2:20</p>
+
+      <br/><a href="https://www.instagram.com/patrickgms/" target="_blank">
+        <img class="social-img no-margin" src="./images/instagram-logo.png" alt="Instagram logo" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/patrickgomesc/" target="_blank">
+        <img class="social-img" src="./images/linked-in-logo.png" alt="Linkedin logo" />
+      </a>
+
+    </footer>
+
+  </div>
+
+  <aside class="second-part">
+
+    <h2>Projetos</h2>
+
+    <div class="project color-guess">
+      <a href="https://patrickfromjesus.github.io/projetos/color-guess" target="_blank"><img class="img-project" src="images/color-guess.png" alt="Projeto Color Guess"></a>
+    </div>
+
+    <div class="project lessons-learned">
+      <a href="https://patrickfromjesus.github.io/projetos/lessons-learned" target="_blank"><img src="images/lessons-learned.png" alt="Projeto Lessons Learned"></a>
+    </div>
+
+    <div class="project meme-generator">
+      <a href="https://patrickfromjesus.github.io/projetos/meme-generator" target="_blank"><img src="images/meme-generator.png" alt="Projeto Meme Generator"></a>
+    </div>
+
+    <div class="project mistery-letter">
+      <a href="https://patrickfromjesus.github.io/projetos/mistery-letter" target="_blank"><img src="images/mistery-letter.png" alt="Projeto Mistery Letter"></a>
+    </div>
+
+    <div class="project pixel-art">
+      <a href="https://patrickfromjesus.github.io/projetos/pixel-art" target="_blank"><img alt="Projeto Pixel Art" src="images/pixel-art.png"></a>
+    </div>
+
+    <div class="project todo-list">
+      <a href="https://patrickfromjesus.github.io/projetos/todo-list" target="_blank"><img src="images/todo-list.png"></a>
+    </div>
+
+
+  </aside>
 
 </div>
-
-<h3 id="skills">Habilidades:</h3>
-
-<h5>Softskills:</h5>
-<ul>
-    <li class="l1">Paciente;</li>
-    <li class="l2">Aberto a diálogo;</li>
-    <li class="l3">Compreensivo;</li>
-    <li class="l4"><strong>Comunicação assertiva;</strong></li>
-    <li class="l5">Dedicado;</li>
-    <li class="l6">Calmo;</li>
-    <li class="l7">Seguro do que faz.</li>
-</ul>
-
-<h5>Hardskills:</h5>
-<ul>
-    <li class="l1">HTML5;</li>
-    <li class="l2">CSS3;</li>
-    <li class="l3">UNIX/Bash;</li>
-    <li class="l4"><strong>Lógica de Programação;</strong></li>
-    <li class="l5">Linguagem C;</li>
-    <li class="l6">JavaScript;</li>
-    <li class="l7">Inglês avançado.</li>
-</ul>
-
-<h3>Mais sobre mim:</h3>
-<a class="foto" href="#pic">- Foto</a><br/>
-<a class="foto" href="https://bibliajfa.com.br/posts/" target="_blank"><em>- Blog favorito</em></a><br/>
-<a class="foto" href="https://www.bibliaonline.com.br/acf">- Livro favorito</a><br/>
-<a class="foto" href="https://pt.wikipedia.org/wiki/Futebol">- Esporte favorito</a><br/>
-<br/><br/>
-<hr/>
-
-<a href="projetos/color-guess/index.html">Color guess</a>
-
-<p id="jesus"><em><strong><small>"Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim."</small><br/> <small>-Gálatas 2:20</small></strong></em></p>
-
-
-</body>
+  </body>
 </html>
