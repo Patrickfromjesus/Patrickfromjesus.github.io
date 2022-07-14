@@ -51,6 +51,13 @@
       box-shadow: 10px 9px 2px #aaa;
       padding-top: 12px;
       text-align: center;
+      transition: 1s;
+  }
+
+  .each-tech:hover {
+    background-color: rgb(5, 124, 5);
+    color: #fff;
+    transition: 0.5s;
   }
 
   footer {
@@ -67,11 +74,20 @@
 
   .btn-signup {
       background-color: transparent;
+      transition: 1s;
       color: #fff;
       border-radius: 7px;
       box-shadow: 2px 2px 2px #000;
       width: 100px;
       height: 30px;
+  }
+
+  .btn-signup:hover {
+    transition: 1s;
+    width: 140px;
+    height: 33px;
+    cursor: pointer;
+    background-color: rgb(2, 2, 90);
   }
 
   .summary {
@@ -121,6 +137,7 @@
     border: 2px double #444;
     height: 190px;
     object-fit: cover;
+    transition: 1s;
   }
 
   .second-part img:hover {

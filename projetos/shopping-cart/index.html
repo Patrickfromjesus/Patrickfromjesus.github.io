@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+    <script src="./helpers/fetchItem.js" defer></script>
+    <script src="./helpers/fetchProducts.js" defer></script>
+    <script src="./helpers/saveCartItems.js" defer></script>
+    <script src="./helpers/getSavedCartItems.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <div class="container-title">
+        <span class="title"><strong>trybe</strong>shopping</span>
+      </div> -->
+      <div class="container-title">
+        <span class="title"><em>Desenvolvido por <a href="https://www.linkedin.com/in/patrickgomesc/"><strong>Patrick Gomes</strong></a></em></span>
+      </div>
+      <i class="material-icons" style="font-size:45px;color:white">shopping_cart</i>
+      <div class="container-cartTitle">
+        <span class="cart__title">Meu carrinho</span>
+      </div>
+    </header>
+    <div id="div-search"><input id="input-search" placeholder="O que buscas? Aqui tem!" type="text">
+    <button type="submit" id="btn-search">Procurar</button></div>
+    <section class="container">
+      <section class="items"></section>
+      <section class="cart">
+        <ol class="cart__items"></ol>
+        <button class="empty-cart">Esvaziar carrinho</button>
+        <label id="label-cart" for="total-message"><strong>Subtotal:</strong><h1 id='total-message' class="total-price"></h1></label>
+      </section>
+    </section>
+  </body>
+</html>
